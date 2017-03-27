@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 App Demo</title>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/media.css'>
+    <link rel="stylesheet" href="css/roundslider.min.css">
+
+    <!-- Local styles -->
+    <style type='text/css'></style>
+    <script src='scripts/jquery-3.1.1.min.js'></script>
+	<script src='scripts/buzz.min.js'></script>
+	<script src='scripts/roundslider.min.js'></script>
+
+</head>
+<body>
+    <div id="PlayerWindow">
+        <div id="PlayerGUI">
+            <div id="WheelGUI">
+                <div id="DurationCenter">
+                    <div id="DurationSlider"></div>
+                </div>
+		
+                <div id="VolCenter">
+                    <div id="VolSlider"></div>
+                </div>
+
+                <div id="ButtonsCenter">
+                    <div id="ButtonCtrls">
+                        <button id="LastSong">&#9194;</button>
+                        <button id="PlayPause">&#9654;</button>
+                        <button id="NextSong">&#9193;</button>
+
+                        <div id="SongName">Name</div>
+                        <div id="TimeDisplay">00.00 / 00.00</div>
+                        <div class="LineBreak"></div>
+                        <button id="Loop">Loop</button>
+                		<button id="Random">Random</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="BottomCtrls">
+                <button id="Return2SongList">Song Lists</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="SongListWindow">
+        <div id="MusicList"></div>
+        <button id="Return2MediaPlayer">Media Player</button>
+    </div>
+
+    <script src="scripts/musicPlayer.js"></script>
+</body>
+</html>

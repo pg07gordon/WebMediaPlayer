@@ -1,0 +1,217 @@
+/*
+ * CSS Styles for GN Music App
+ *
+ */
+
+body
+{
+	background-color:black;
+	background-image: url("../images/background.png");
+	background-repeat: repeat;
+}
+
+body,div
+{
+    margin:0;
+    border:none;
+    position:  relative;
+}
+
+.LineBreak
+{
+	padding-top: 10px;
+	display: block;
+}
+
+.SongItem
+{
+	width: 20em;
+}
+
+#SongListWindow
+{
+	padding-top: 100px;
+	display: flex;
+	align-items: center;
+}
+
+#MusicList
+{
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%)
+}
+
+#PlayerWindow
+{
+	padding-top: 100px;
+	height: 40em;
+	display: flex;
+	align-items: center;
+}
+
+#PlayerGUI
+{
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%)
+}
+
+#WheelGUI
+{
+	margin: 0;
+}
+
+#ButtonsCenter
+{
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+#ButtonCtrls
+{
+	background: transparent;
+	z-index: 3;
+	width: 240px;
+    top: 260px;
+    left: 180px;
+    text-align: center;
+}
+
+#LastSong
+{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 150%;
+}
+
+#NextSong
+{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 150%;
+}
+
+#PlayPause
+{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 150%;
+}
+
+#SongName
+{
+	padding-top: 10px;
+}
+
+#TimeDisplay
+{
+	padding-top: 10px;
+}
+
+
+#VolCenter
+{
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+#VolSlider
+{
+	background: transparent;
+	z-index: 2;
+    top: 120px;
+    left: 290px;
+}
+
+
+#VolSlider .rs-inner
+{
+	background-color:black;
+}
+
+#VolSlider .rs-range-color
+{
+	background: radial-gradient(ellipse at bottom, rgba(0, 0, 255, 1) 0%, rgba(0, 0, 174, 1) 34%, rgba(64, 203, 255, 1) 66%, rgba(5, 0, 0, 1) 100%);
+}
+
+#VolSlider .rs-path-color {
+	background: radial-gradient(ellipse at bottom, rgba(0, 0, 0, 1) 0%, rgba(60, 60, 60, 1) 34%, rgba(40, 40, 40, 1) 66%, rgba(0, 0, 0, 1) 100%);
+}
+
+#VolSlider .rs-border {
+border-color: black;
+}
+
+#DurationCenter
+{
+	z-index: 1;
+}
+
+#DurationSlider 
+{
+	background: transparent;
+}
+
+#DurationSlider .rs-range-color
+{
+	background: radial-gradient(ellipse at bottom, rgba(0, 0, 255, 1) 0%, rgba(0, 0, 174, 1) 34%, rgba(64, 203, 255, 1) 66%, rgba(5, 0, 0, 1) 100%);
+}
+
+#DurationSlider .rs-path-color {
+	background: radial-gradient(ellipse at bottom, rgba(0, 0, 0, 1) 0%, rgba(60, 60, 60, 1) 34%, rgba(40, 40, 40, 1) 66%, rgba(0, 0, 0, 1) 100%);
+}
+
+#DurationSlider .rs-handle {
+	background: radial-gradient(ellipse at center, rgba(228, 228, 228, 1) 0%, rgba(179, 179, 179, 1) 34%, rgb(102, 91, 98) 100%);
+}
+
+#DurationSlider .rs-inner
+{
+	background-color:black;
+	background-image: url("../images/Dial_Background.png");
+    background-position: center;
+    background-size: 100%;
+}
+
+#DurationSlider .rs-border {
+border-color: black;
+}
+
+#BottomCtrls
+{
+	padding-top: 40px;
+	text-align: center;
+}
+
+#Loop
+{
+	 margin-left: 10px;
+}
+
+#Random
+{
+	 margin-left: 10px;
+}
+
+#Return2SongList
+{
+	visibility: hidden;
+	width: 300px;
+	height: 100px;
+}
+
+#Return2MediaPlayer
+{
+	visibility: hidden;
+	width: 300px;
+	height: 100px;
+}
